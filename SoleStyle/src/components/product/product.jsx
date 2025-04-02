@@ -6,7 +6,7 @@ import './product.css';
 const Product = () => {
   return (
     <section className='container'>
-        <div className='item-box'>
+    <div className='item-box'>
         <img className='image' src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg'/>
         <section className='product-details'>
             <span className='item-name'>Shoe</span>

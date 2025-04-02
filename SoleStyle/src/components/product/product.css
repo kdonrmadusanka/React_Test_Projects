@@ -1,53 +1,60 @@
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    z-index: -2;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 1;
+    width: 100%;
 }
 
-.item-box{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+.item-box {
+    margin: 10px;
     padding: 15px;
-    margin: 3;
     border: 2px solid #ededed;
     border-radius: 10px;
     cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 100%;
 }
 
-.image{
+.image {
     width: 13rem;
+    max-width: 100%; 
     margin-bottom: 1rem;
 }
 
-.rating-count{
+.rating-count {
     margin-left: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.item-name, .rating-count, .new-price{
+.item-name, .rating-count, .new-price {
     font-family: monospace;
 }
 
-.star-ratings{
+.star-ratings {
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-.star{
+.star {
     color: gold;
 }
 
-.bag{
+.bag {
     margin-left: 20px;
 }
 
-.price-bag{
+.price-bag {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+    flex-wrap: wrap;
+}
+
+.item-box:hover {
+    z-index: 10; 
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }

@@ -1,20 +1,22 @@
-.nav-bar{
+.nav-bar {
     display: flex;
     border-bottom: 2px solid #f3f3f3;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     z-index: 1000;
-    margin-left: 2rem;
+    margin-left: 0;
+    flex-wrap: wrap;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
-input{
+input {
     padding: 12px 20px; 
     border: none;
     background: #f2f6f6;
@@ -23,4 +25,5 @@ input{
     border-radius: 5px;
     position: relative;
     width: 14rem;
+    max-width: 100%;
 }
