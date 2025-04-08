@@ -9,9 +9,11 @@ const SideBar = () => {
     <>
     <section className='sidebar-container'>
         <h2>🛒</h2>
-        <Category />
-        <Color />
-        <Price />
+        <div className='side-content'>
+          <Category />
+          <Color />
+          <Price />
+        </div>
     </section>
     </>
     
