@@ -4,7 +4,7 @@ import './category.css'
 const Category = () => {
   return (
     <div className='category-container'>
-      <h2 className='side-title'>Category</h2>
+      <h2 className='sidebar-title category-title'>Category</h2>
       
       <div>
         <label className='sidebar-label-container'>
