@@ -1,5 +1,6 @@
 import React from 'react';
-import './color.css'
+import './color.css';
+import Buttons from '../../components/Input';
 
 const Color = () => {
   return (
@@ -7,30 +8,11 @@ const Color = () => {
       <h2 className='sidebar-title price-title'>Color</h2>
 
       <div>
-        <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>All
-        </label>
-        <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>Black
-        </label>
-        <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>Blue
-        </label>
-        <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>Red
-        </label>
-        <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>Green
-        </label>
-        <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>White
-        </label>
+      <Buttons />
+      <Buttons />
+      <Buttons />
+      <Buttons />
+      <Buttons />
       </div>
     </div>
   )
