@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Nav from './components/navigation/Nav'
-import Product from './components/product/Product';
-import Recomended from './components/recomended/Recomended';
+import Nav from './assets/navigation/Nav'
+import Product from './assets/product/Product';
+import Recomended from './assets/recomended/Recomended';
 import SideBar from './sideBar/SideBar';
 import './app.css';
 
