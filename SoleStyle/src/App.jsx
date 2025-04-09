@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Nav from './components/navigation/nav'
-import Product from './components/product/product';
-import Recomended from './components/recomended/recomended';
-import SideBar from './sideBar/sideBar';
+import Nav from './components/navigation/Nav'
+import Product from './components/product/Product';
+import Recomended from './components/recomended/Recomended';
+import SideBar from './sideBar/SideBar';
 import './app.css';
 
 
