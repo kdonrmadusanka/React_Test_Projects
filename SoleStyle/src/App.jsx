@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import Nav from './assets/navigation/Nav'
+import { useState } from 'react';
+import Nav from './assets/navigation/Nav';
 import Product from './assets/product/Product';
 import Recomended from './assets/recomended/Recomended';
 import SideBar from './sideBar/SideBar';
@@ -8,7 +8,6 @@ import './app.css';
 
 //Database
 import products from './db/data'
-
 
 function App() {
   const[selectCategory, setSelectCategory] = useState(null);
