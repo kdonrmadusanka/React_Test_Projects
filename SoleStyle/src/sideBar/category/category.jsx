@@ -1,18 +1,18 @@
 import React from 'react';
 import './category.css'
-import Buttons from '../../components/Input';
+import Input from '../../components/Input';
 
-const Category = () => {
+const Category = ({ handleChange }) => {
   return (
     <div className='category-container'>
       <h2 className='sidebar-title category-title'>Category</h2>
       
       <div>
-        <Buttons />
-        <Buttons />
-        <Buttons />
-        <Buttons />
-        <Buttons />
+        <Input />
+        <Input />
+        <Input />
+        <Input />
+        <Input />
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import './color.css';
-import Buttons from '../../components/Input';
+import Input from '../../components/Input';
 
 const Color = () => {
   return (
@@ -8,11 +8,11 @@ const Color = () => {
       <h2 className='sidebar-title price-title'>Color</h2>
 
       <div>
-      <Buttons />
-      <Buttons />
-      <Buttons />
-      <Buttons />
-      <Buttons />
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+      <Input />
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import './price.css';
-import Buttons from '../../components/Input';
+import Input from '../../components/Input';
 
 const Price = () => {
   return (
@@ -8,11 +8,11 @@ const Price = () => {
       <h2 className='sidebar-title price-title'>Price</h2>
 
       <div>
-        <Buttons />
-        <Buttons />
-        <Buttons />
-        <Buttons />
-        <Buttons />
+        <Input />
+        <Input />
+        <Input />
+        <Input />
+        <Input />
       </div>
     </div>
   )
