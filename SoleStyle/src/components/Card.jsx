@@ -2,23 +2,23 @@ import React from 'react';
 import { IoStarSharp } from "react-icons/io5";
 import { IoBagCheck } from "react-icons/io5";
 
-const Card = () => {
+const Card = ({ img, title, reviews, newPrice, prevPrice }) => {
   return (
     <div className='item-box'>
-            <img className='image' src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg'/>
+            <img className='image' src={img}/>
             <section className='product-details'>
-                <span className='item-name'>Shoe</span>
+                <span className='item-name'>{title}</span>
                 <div className='star-ratings'>
                     <IoStarSharp className='star' />
                     <IoStarSharp className='star' />
                     <IoStarSharp className='star' />
                     <IoStarSharp className='star' />
                     <IoStarSharp className='star' />
-                    <span className='rating-count'>4</span>
+                    <span className='rating-count'>{reviews}</span>
                 </div>
                 <section className='price-bag'>
-                    <del>$300</del> 
-                    <span className='new-price'>$200</span>
+                    <del>{prevPrice}</del> 
+                    <span className='new-price'>${newPrice}</span>
                     <IoBagCheck className='bag'/>
                 </section>
             </section>
