@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Buttons = () => {
+const Input = ({ handleChange, title, value, name ,color }) => {
   return (
     <div>
         <label className='sidebar-label-container'>
-          <input type='radio' name='test' />
-          <span className='checkmark'></span>All
+          <input type='radio' onChange={handleChange} value={value} name={name} />
+          <span className='checkmark' style={{backgroundColor:color, border:"1px solid black"}}></span>{title}
         </label>
     </div>
   )
 }
 
-export default Buttons
+export default Input;
