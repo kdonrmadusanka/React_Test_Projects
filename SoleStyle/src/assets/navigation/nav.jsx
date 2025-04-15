@@ -3,13 +3,13 @@ import './nav.css';
 import { CiShoppingCart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 
-const Nav = () => {
+const Nav = ({ handleChange }) => {
   return (
     <div className='nav-bar'>
-        <input type='text' placeholder='Search'></input>
+        <input type='text' placeholder='Search' onChange={handleChange}></input>
         <div className='icons'>
-            <CiShoppingCart />
-            <CiUser />
+            <CiShoppingCart className='icon' />
+            <CiUser className='icon' />
         </div>
     </div>
   )

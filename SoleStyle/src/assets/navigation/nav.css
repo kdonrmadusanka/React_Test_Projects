@@ -27,3 +27,13 @@ input {
     width: 14rem;
     max-width: 100%;
 }
+
+.icon{
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    color: #ff5733;
+}
